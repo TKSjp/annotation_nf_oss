@@ -33,7 +33,7 @@ see config and prepare all environments.
 
 - before run, modify annotation.config
     - mkdir log input
-    - git clone https://github.com/TKSjp/annotation_nf script
+    - git clone https://github.com/TKSjp/annotation_nf_oss script
     - run repeatmasker first (take 8hours) and use masked fasta for annotation
     - modify config
         - set correct paths for the scripts, conda environments, sequence files, and containers (.nf and .config files)
